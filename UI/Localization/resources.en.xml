@@ -260,7 +260,7 @@
 
 			<Control ID="lblFdsSettings">Einstellungen für Famicom Disk System</Control>
 			<Control ID="chkFdsAutoLoadDisk">Diskette 1 Seite A automatisch einlegen, wenn FDS-Spiele gestartet werden</Control>
-			<Control ID="chkFdsFastForwardOnLoad">Bei FDS-Spielen automatisch Vorspulen, wenn Diskette oder BIOS lädt</Control>
+			<Control ID="chkFdsFastForwardOnLoad">Bei FDS-Spielen automatisch vorspulen, wenn Diskette oder BIOS lädt</Control>
 			<Control ID="chkFdsAutoInsertDisk">Disketten von FDS-Spielen automatisch wechseln</Control>
 
 			<Control ID="lblVsDualSystem">Einstellungen für VS. DualSystem</Control>
@@ -314,7 +314,7 @@
 			<Control ID="chkMapperRandomPowerOnState">Einschaltstatus für Mapper zufällig auswählen</Control>
 			<Control ID="chkRandomizeCpuPpuAlignment">Zufällige CPU- und PPU-Einstellung beim Einschalten/Reset</Control>
 			<Control ID="chkEnableOamDecay">PPU-OAM-Decay aktivieren</Control>
-			<Control ID="chkEnablePpuOamRowCorruption">PPU-OAM-Row-Corruption emulieren</Control>
+			<Control ID="chkEnablePpuOamRowCorruption">PPU-OAM-Rowcorruption emulieren</Control>
 			<Control ID="chkEnablePpu2006ScrollGlitch">PPU-$2006-Scrollglitch emulieren</Control>
 			<Control ID="chkEnablePpu2000ScrollGlitch">PPU-$2000/$2005/$2006-Firstwrite-Scrollglitch emulieren</Control>
 
@@ -611,7 +611,7 @@
 			<Control ID="radProActionReplay">Pro Action Replay (z. B. AAAAAAVV)</Control>
 			<Control ID="chkEnabled">Cheat aktiviert</Control>
 			<Control ID="lblHint">Nur einen Code pro Zeile eingeben, wenn du mehrere&#xA;Codes benutzen möchtest.</Control>
-			<Control ID="lblInvalidCodes">Einige Codes stimmen mit dem ausgewählten&#xA;Format nicht überein.</Control>
+			<Control ID="lblInvalidCodes">Einige Codes stimmen nicht mit dem ausgewählten&#xA;Format überein.</Control>
 			<Control ID="lblFormat">Format:</Control>
 			
 			<Control ID="btnOK">OK</Control>
@@ -628,7 +628,7 @@
 			<Control ID="grpAcknowledgements">Danksagungen</Control>
 			<Control ID="lblAcknowledgeList">Danke an folgende Personen/Projekte, die direkt oder indirekt dazu beigetragen haben, Mesen zu dem zu machen, was es ist:</Control>
 			<Control ID="lblUsedSoftware">Mesen verwendet folgende Open-Source-Software:</Control>
-			<Control ID="lblSpecialThanks">Und danke an alle, die in irgendeiner Form dazu beigetragen haben (Fehlermeldungen, Tests, Recherche, etc.)!</Control>
+			<Control ID="lblSpecialThanks">Und danke an alle, die in anderer Form dazu beigetragen haben (Fehlermeldungen, Tests, Recherche, etc.)!</Control>
 
 			<Control ID="btnOk">OK</Control>
 		</Form>
@@ -1484,7 +1484,7 @@
 		<Message ID="FirmwareMismatch">Die ausgewählte Datei stimmt nicht mit der überein, die für das Spiel benötigt wird: {0}&#xA;&#xA;SHA-256 der benötigten Datei:&#xA;{1}&#xA;&#xA;SHA-256 dieser Datei:&#xA;{2}&#xA;&#xA;Möchtest du diese Datei trotzdem verwenden?</Message>
 		<Message ID="FirmwareFileWrongSize">Die ausgewählte Firmware-Datei stimmt nicht mit Größe überein, die erwartet wird ({0} Bytes) und kann somit nicht verwendet werden.</Message>
 
-		<Message ID="MouseModeEnabled">Mausmodus aktiviert - Drücke "Pause", damit der Mauszeiger wieder freigegeben wird.</Message>
+		<Message ID="MouseModeEnabled">Mausmodus aktiviert - Die Pause-Taste gibt den Mauszeiger wieder frei.</Message>
 		<Message ID="BandaiMicrophone">Bandai-Microphone</Message>
 		<Message ID="DatachBarcodeReader">Datach-Barcode-Reader</Message>
 
@@ -1498,7 +1498,7 @@
 		<Message ID="Resume">Fortsetzen</Message>
 		<Message ID="Pause">Pause</Message>
 		<Message ID="StartServer">Server starten</Message>
-		<Message ID="StopServer">Server stoppen</Message>
+		<Message ID="StopServer">Server abschalten</Message>
 		<Message ID="ConnectToServer">Verbinden</Message>
 		<Message ID="Disconnect">Trennen</Message>
 		<Message ID="PlayerNumber">Spieler {0}</Message>
@@ -1566,7 +1566,7 @@
 		<Message ID="InstallHdPackConfirmOverwrite">Der ausgewählte Ordner ({0}) existiert bereits. Bist du sicher, dass du ihn überschreiben möchtest?</Message>
 		<Message ID="InstallHdPackConfirmReset">Das HD-Pack wurde erfolgreich installiert. Möchtest du das Spiel neu starten und das HD-Pack laden?</Message>
 
-		<Message ID="Player">Player</Message>
+		<Message ID="Player">Spieler</Message>
 
 		<Message ID="HexEditor_Location">Location: ${0}</Message>
 		<Message ID="HexEditor_Selection">Selection: ${0} - ${1}, {2} bytes</Message>
@@ -1600,7 +1600,7 @@
 			<Value ID="Pause">Pause</Value>
 			<Value ID="Reset">Reset</Value>
 			<Value ID="PowerCycle">Aus- und Einschalten</Value>
-			<Value ID="ReloadRom">Spiel neu laden</Value>
+			<Value ID="ReloadRom">Neu laden</Value>
 			<Value ID="PowerOff">Ausschalten</Value>
 			<Value ID="Exit">Beenden</Value>
 			<Value ID="TakeScreenshot">Screenshot erstellen</Value>
@@ -2195,7 +2195,7 @@
 		</Enum>
 		<Enum ID="RecordMovieFrom">
 			<Value ID="StartWithoutSaveData">ausgehend von Einschaltung</Value>
-			<Value ID="StartWithSaveData">Mit Spielstand einschalten</Value>
+			<Value ID="StartWithSaveData">mit Spielstand von Einschaltung</Value>
 			<Value ID="CurrentState">ausgehend vom jetzigen Stand</Value>
 		</Enum>
 		<Enum ID="AudioSampleRate">
@@ -2731,9 +2731,9 @@
 			<Value ID="FindNext">Find Next</Value>
 			<Value ID="FindPrev">Find Previous</Value>
 			<Value ID="Undo">Undo</Value>
-			<Value ID="Copy">Copy</Value>
-			<Value ID="Cut">Cut</Value>
-			<Value ID="Paste">Paste</Value>
+			<Value ID="Copy">Kopieren</Value>
+			<Value ID="Cut">Ausschneiden</Value>
+			<Value ID="Paste">Einfügen</Value>
 			<Value ID="SelectAll">Select All</Value>
 			<Value ID="Refresh">Refresh</Value>
 			<Value ID="MarkAsCode">Mark Selection as Code</Value>
@@ -2951,7 +2951,7 @@
 			<Value ID="Break">Break</Value>
 			<Value ID="Reset">Reset</Value>
 			<Value ID="PowerCycle">Aus- und Einschalten</Value>
-			<Value ID="ReloadRom">Spiel neu laden</Value>
+			<Value ID="ReloadRom">Neu laden</Value>
 			<Value ID="StepInto">Step into</Value>
 			<Value ID="StepOut">Step out</Value>
 			<Value ID="StepOver">Step over</Value>
@@ -3026,7 +3026,7 @@
 			<Value ID="HistoryViewer">Spielverlaufsbetrachter</Value>
 			<Value ID="NetPlay">Netplay</Value>
 			<Value ID="StartServer">Server starten...</Value>
-			<Value ID="StopServer">Server stoppen</Value>
+			<Value ID="StopServer">Server abschalten</Value>
 			<Value ID="Connect">Verbinden...</Value>
 			<Value ID="Disconnect">Trennen</Value>
 			<Value ID="SelectController">Controller auswählen</Value>
