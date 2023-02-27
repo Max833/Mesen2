@@ -137,7 +137,7 @@
 		</Form>
 		<Form ID="VideoConfigView">
 			<Control ID="tpgGeneral">Allgemein</Control>
-			<Control ID="chkIntegerFpsMode">Ganzzahl-FPS-Modus aktivieren (ein Spiel läuft damit z. B. mit 60 statt 60.1 FPS)</Control>
+			<Control ID="chkIntegerFpsMode">Ganzzahl-Modus aktivieren (ein Spiel läuft damit z. B. mit 60 statt 60.1 FPS)</Control>
 			<Control ID="chkVerticalSync">Vertikale Synchronisation aktivieren</Control>
 			<Control ID="lblDisplayRatio">Seitenverhältnis:</Control>
 			<Control ID="lblCustomRatio">Benutzerdefiniert: </Control>
@@ -2194,9 +2194,9 @@
 			<Value ID="GIF">GIF</Value>
 		</Enum>
 		<Enum ID="RecordMovieFrom">
-			<Value ID="StartWithoutSaveData">ausgehend von Einschaltung</Value>
-			<Value ID="StartWithSaveData">mit Spielstand von Einschaltung</Value>
-			<Value ID="CurrentState">ausgehend vom jetzigen Stand</Value>
+			<Value ID="StartWithoutSaveData">Ausgehend von Einschaltung</Value>
+			<Value ID="StartWithSaveData">Mit Spielstand von Einschaltung</Value>
+			<Value ID="CurrentState">Ausgehend vom jetzigen Stand</Value>
 		</Enum>
 		<Enum ID="AudioSampleRate">
 			<Value ID="_11025">11,025 Hz</Value>
@@ -2478,7 +2478,7 @@
 		</Enum>
 		<Enum ID="HudDisplaySize">
 			<Value ID="Fixed">Festgesetzte Größe</Value>
-			<Value ID="Scaled">Skaliert mit Spiel</Value>
+			<Value ID="Scaled">Mit Spiel skalieren</Value>
 		</Enum>
 		<Enum ID="TileFormat">
 			<Value ID="NesBpp2">2 bpp</Value>
@@ -3032,7 +3032,7 @@
 			<Value ID="SelectController">Controller auswählen</Value>
 			<Value ID="Movies">Filme</Value>
 			<Value ID="Play">Abspielen...</Value>
-			<Value ID="Record">Aufnahme starten...</Value>
+			<Value ID="Record">Aufnahme starten:</Value>
 			<Value ID="Stop">Aufnahme stoppen</Value>
 			<Value ID="SoundRecorder">Audioaufnahmegerät</Value>
 			<Value ID="VideoRecorder">Videoaufnahmegerät</Value>
