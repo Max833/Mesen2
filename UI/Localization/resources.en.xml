@@ -486,7 +486,7 @@
 
 			<Control ID="chkConfirmExitResetPower">Bestätigungsabfrage anzeigen (Reset, Aus- und Einschalten, Ausschalten und Beenden)</Control>
 			<Control ID="chkPauseOnMovieEnd">Mesen pausieren, sobald Film zu Ende</Control>
-			<Control ID="chkShowMovieIcons">Beim Abspielen oder Aufnehmen eines Films entsprechende Icons anzeigen</Control>
+			<Control ID="chkShowMovieIcons">Beim Abspielen/Aufnehmen eines Films entsprechende Icons anzeigen</Control>
 			<Control ID="chkShowTurboRewindIcons">Beim Vorspulen/Zurückspulen entsprechende Icons anzeigen</Control>
 			<Control ID="chkAllowBackgroundInput">Benutzereingaben erlauben, wenn Mesen im Hintergrund (betrifft nur Controller)</Control>
 
@@ -494,9 +494,9 @@
 			<Control ID="chkPauseInMenuAndConfig">Mesen pausieren, sobald im Menü oder in den Einstellungen</Control>
 			<Control ID="chkPauseInDebugger">Debugging-Werkzeuge</Control>
 
-			<Control ID="chkAutoLoadIps">IPS- und BPS-Patches automatisch laden</Control>
+			<Control ID="chkAutoLoadIps">IPS- und BPS-Patches automatisch laden (Spiel und Patch müssen im gleichen Ordner sein und identischen Dateinamen haben)</Control>
 			<Control ID="chkHidePauseOverlay">Pausebildschirm deaktivieren</Control>
-			<Control ID="chkDisplayMovieIcons">Beim Abspielen oder Aufnehmen eines Films entsprechende Icons anzeigen</Control>
+			<Control ID="chkDisplayMovieIcons">Beim Abspielen/Aufnehmen eines Films entsprechende Icons anzeigen</Control>
 
 			<Control ID="tpgFiles">Ordner/Dateien</Control>
 			<Control ID="grpFileAssociations">Dateizuordnungen</Control>
@@ -896,7 +896,7 @@
 			<Control ID="colSpriteIndex">#</Control>
 			<Control ID="colX">X</Control>
 			<Control ID="colY">Y</Control>
-			<Control ID="colSize">Size</Control>
+			<Control ID="colSize">Größe</Control>
 			<Control ID="colTileIndex">Tile</Control>
 			<Control ID="colPriority">Priority</Control>
 			<Control ID="colPalette">Palette</Control>
@@ -1484,7 +1484,7 @@
 		<Message ID="FirmwareMismatch">Die ausgewählte Datei stimmt nicht mit der überein, die für das Spiel benötigt wird: {0}&#xA;&#xA;SHA-256 der benötigten Datei:&#xA;{1}&#xA;&#xA;SHA-256 dieser Datei:&#xA;{2}&#xA;&#xA;Möchtest du diese Datei trotzdem verwenden?</Message>
 		<Message ID="FirmwareFileWrongSize">Die ausgewählte Firmware-Datei stimmt nicht mit Größe überein, die erwartet wird ({0} Bytes) und kann somit nicht verwendet werden.</Message>
 
-		<Message ID="MouseModeEnabled">Mausmodus aktiviert - Die Pause-Taste gibt den Mauszeiger wieder frei.</Message>
+		<Message ID="MouseModeEnabled">Mausmodus aktiviert - Die Pause-Taste gibt den Mauszeiger wieder frei</Message>
 		<Message ID="BandaiMicrophone">Bandai-Microphone</Message>
 		<Message ID="DatachBarcodeReader">Datach-Barcode-Reader</Message>
 
@@ -1748,7 +1748,7 @@
 			<Value ID="GameboyController">Gameboy-Controller</Value>
 			<Value ID="PceController">2-Button-Controller</Value>
 			<Value ID="PceAvenuePad6">6-Button-Controller</Value>
-			<Value ID="PceTurboTap">Turbo Tap</Value>
+			<Value ID="PceTurboTap">Turbo-Tap</Value>
 		</Enum>
 		<Enum ID="NesJissenMahjongButtons">
 			<Value ID="A">A</Value>
