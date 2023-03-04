@@ -494,7 +494,7 @@
 			<Control ID="chkPauseInMenuAndConfig">Mesen pausieren, sobald im Menü oder in den Einstellungen</Control>
 			<Control ID="chkPauseInDebugger">Debugging-Werkzeuge</Control>
 
-			<Control ID="chkAutoLoadIps">IPS/BPS-Patches automatisch laden (Spiel muss im gleichen Ordner sein + identische Dateinamen)</Control>
+			<Control ID="chkAutoLoadIps">IPS/BPS-Patches automatisch laden (Spiel muss im gleichen Ordner sein + identische Namen)</Control>
 			<Control ID="chkHidePauseOverlay">Pausebildschirm deaktivieren</Control>
 			<Control ID="chkDisplayMovieIcons">Beim Abspielen/Aufnehmen eines Films entsprechende Icons anzeigen</Control>
 
