@@ -439,7 +439,7 @@
 
 		<Form ID="ShortcutKeysTabView">
 			<Control ID="lblShortcutWarning">Warnung: Deine Konfiguration enthält kollidierende Belegungen – einige Tasten sind mehrfach belegt. Falls das nicht beabsichtigt ist, solltest du das korrigieren.</Control>
-			<Control ID="colAction">Aktion</Control>
+			<Control ID="colAction">Aktion (Info: Ein Rechtsklick löscht die aktuelle Belegung)</Control>
 			<Control ID="colBinding1">Belegung #1</Control>
 			<Control ID="colBinding2">Belegung #2</Control>
 		</Form>
@@ -494,7 +494,7 @@
 			<Control ID="chkPauseInMenuAndConfig">Mesen pausieren, sobald im Menü oder in den Einstellungen</Control>
 			<Control ID="chkPauseInDebugger">Debugging-Werkzeuge</Control>
 
-			<Control ID="chkAutoLoadIps">IPS- und BPS-Patches automatisch laden (Wichtig: Spiel und Patch im gleichen Ordner + identischer Dateiname)</Control>
+			<Control ID="chkAutoLoadIps">IPS- und BPS-Patches automatisch laden (Spiel muss im gleichen Ordner sein + identischer Name)</Control>
 			<Control ID="chkHidePauseOverlay">Pausebildschirm deaktivieren</Control>
 			<Control ID="chkDisplayMovieIcons">Beim Abspielen/Aufnehmen eines Films entsprechende Icons anzeigen</Control>
 
