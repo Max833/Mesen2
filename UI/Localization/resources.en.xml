@@ -1475,8 +1475,8 @@
 		<Message ID="MovieSaveError">Beim Versuch, die Film-Datei zu speichern, ist ein Fehler aufgetreten.</Message>
 		<Message ID="FileSaveError">Beim Versuch, die Datei zu speichern, ist ein Fehler aufgetreten.</Message>
 
-		<Message ID="SetKeyHint">Press any key on your keyboard to set a new binding.</Message>
-		<Message ID="SetKeyMouseHint">Press any key on your keyboard, controller or mouse to set a new Belegung.</Message>
+		<Message ID="SetKeyHint">Drücke eine beliebige Taste, um eine neue Belegung festzulegen.</Message>
+		<Message ID="SetKeyMouseHint">Drücke eine beliebige Taste, um eine neue Belegung festzulegen.</Message>
 
 		<Message ID="ClearHistory">Verlauf leeren</Message>
 
