@@ -439,7 +439,7 @@
 
 		<Form ID="ShortcutKeysTabView">
 			<Control ID="lblShortcutWarning">Warnung: Deine Konfiguration enthält kollidierende Belegungen – einige Tasten sind mehrfach belegt. Falls das nicht beabsichtigt ist, solltest du das korrigieren.</Control>
-			<Control ID="colAction">Aktion (Info: Ein Rechtsklick löscht die aktuelle Belegung)</Control>
+			<Control ID="colAction">Aktion (ein Rechtsklick löscht die aktuelle Belegung!)</Control>
 			<Control ID="colBinding1">Belegung #1</Control>
 			<Control ID="colBinding2">Belegung #2</Control>
 		</Form>
@@ -517,7 +517,7 @@
 			<Control ID="chkGameOverride">Spiele:</Control>
 			<Control ID="chkAviOverride">Videos:</Control>
 			<Control ID="chkScreenshotsOverride">Screenshots:</Control>
-			<Control ID="chkSaveDataOverride">Klassische Speicherdateien:</Control>
+			<Control ID="chkSaveDataOverride">Original-Spielstände:</Control>
 			<Control ID="chkWaveOverride">Audio:</Control>
 			<Control ID="chkSaveStatesOverride">Mesen-Spielstände:</Control>
 			<Control ID="chkMoviesOverride">Mesen-Filme:</Control>
@@ -532,7 +532,7 @@
 
 			<Control ID="lblFontSettings">Einstellungen zur Schriftart</Control>
 			<Control ID="lblFontAntialiasing">Kantenglättung der Schrift:</Control>
-			<Control ID="lblRegularFont">Standardschriftart:</Control>
+			<Control ID="lblRegularFont">Schriftart:</Control>
 			<Control ID="lblMenuFont">Menüschriftart:</Control>
 
 			<Control ID="lblAdvancedMisc">Sonstige Einstellungen</Control>
@@ -554,7 +554,7 @@
 			<Control ID="chkDisableHighResolutionTimer">High-Resolution-Timer deaktivieren</Control>
 			<Control ID="chkDisableOsd">Bildschirmmeldungen deaktivieren</Control>
 
-			<Control ID="chkAlwaysOnTop">Immer über allen anderen Fenstern anzeigen</Control>
+			<Control ID="chkAlwaysOnTop">Mesen-Hauptfenster immer über allen anderen Fenstern anzeigen</Control>
 			<Control ID="chkShowFps">FPS anzeigen</Control>
 			<Control ID="lblHudDisplaySize">HUD-Anzeigegröße:</Control>
 			<Control ID="chkShowDebugInformation">Debuginformationen anzeigen</Control>
@@ -3032,7 +3032,7 @@
 			<Value ID="SelectController">Controller auswählen</Value>
 			<Value ID="Movies">Filme</Value>
 			<Value ID="Play">Abspielen...</Value>
-			<Value ID="Record">Aufnahme starten:</Value>
+			<Value ID="Record">Aufnahme starten</Value>
 			<Value ID="Stop">Aufnahme stoppen</Value>
 			<Value ID="SoundRecorder">Audioaufnahmegerät</Value>
 			<Value ID="VideoRecorder">Videoaufnahmegerät</Value>
