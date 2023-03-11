@@ -1,4 +1,4 @@
- #include "pch.h"
+#include "pch.h"
 #include "Shared/MessageManager.h"
 
 std::unordered_map<string, string> MessageManager::_enResources = {
@@ -69,7 +69,7 @@ std::unordered_map<string, string> MessageManager::_enResources = {
 	{ "SaveStateSlotSelected", u8"Slot %1 ausgewählt" },
 	{ "ScanlineTimingWarning", u8"PPU-Timing wurde umgestellt" },
 	{ "ServerStarted", u8"Server gestartet (Port: %1)" },
-	{ "ServerStopped", u8"Server abgeschaltet" },
+	{ "ServerStopped", u8"Server ausgeschaltet" },
 	{ "SoundRecorderStarted", u8"WAV-Aufnahme gestartet (%1)" },
 	{ "SoundRecorderStopped", u8"WAV-Aufnahme gespeichert (%1)" },
 	{ "TestFileSavedTo", u8"Test-Datei gespeichert (%1)" },
