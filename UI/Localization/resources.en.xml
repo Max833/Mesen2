@@ -277,8 +277,8 @@
 			<Control ID="chkRemoveSpriteLimit">Sprite-Limit entfernen (reduziert das Flackern)</Control>
 			<Control ID="chkAdaptiveSpriteLimit">Sprite-Limit bei Gebrauch wieder aktivieren, um grafische Fehler zu vermeiden</Control>
 			<Control ID="chkEnablePalBorders">Schwarze PAL-Ränder aktivieren</Control>
-			<Control ID="chkDisableBackground">Hintergrund deaktivieren</Control>
-			<Control ID="chkDisableSprites">Sprites deaktivieren</Control>
+			<Control ID="chkDisableBackground">Hintergrund ausblenden</Control>
+			<Control ID="chkDisableSprites">Sprites ausblenden</Control>
 			<Control ID="chkForceBackgroundFirstColumn">Hintergrund der ersten Spalte auf der linken Bildseite rendern</Control>
 			<Control ID="chkForceSpritesFirstColumn">Sprites der ersten Spalte auf der linken Bildseite rendern</Control>
 
@@ -331,7 +331,7 @@
 		<Form ID="GameboyConfigView">
 			<Control ID="tpgGeneral">Allgemein</Control>
 			<Control ID="lblModel">Modell</Control>
-			<Control ID="chkUseSgb2">Verhalten und Timing vom Super Game Boy 2 emulieren</Control>
+			<Control ID="chkUseSgb2">Wenn entsprechender Modus aktiviert, verhalten und Timing vom Super Game Boy 2 emulieren</Control>
 			
 			<Control ID="tpgEmulation">Emulation</Control>
 			<Control ID="lblRamPowerOnState">Einschaltstatus für RAM: </Control>
@@ -351,8 +351,8 @@
 			<Control ID="lblLcdSettings">LCD-Einstellungen</Control>
 			<Control ID="chkGbBlendFrames">LCD-Bildüberblendung aktivieren</Control>
 			<Control ID="chkGbcAdjustColors">GBC-LCD-Farbemulation aktivieren</Control>
-			<Control ID="chkDisableBackground">Hintergrund deaktivieren</Control>
-			<Control ID="chkDisableSprites">Sprites deaktivieren</Control>
+			<Control ID="chkDisableBackground">Hintergrund ausblenden</Control>
+			<Control ID="chkDisableSprites">Sprites ausblenden</Control>
 			
 			<Control ID="lblMiscSettings">Sonstige Einstellungen</Control>
 			<Control ID="chkHideSgbBorders">Rahmen vom Super Game Boy deaktivieren</Control>
@@ -398,10 +398,10 @@
 			<Control ID="tpgVideo">Video</Control>
 			<Control ID="lblMiscSettings">Sonstige Einstellungen</Control>
 			<Control ID="chkRemoveSpriteLimit">Sprite-Limit entfernen</Control>
-			<Control ID="chkDisableBackground">Hintergrund deaktivieren</Control>
-			<Control ID="chkDisableBackgroundVdc2">Hintergrund deaktivieren (VDC2 - SuperGrafx)</Control>
-			<Control ID="chkDisableSprites">Sprites deaktivieren</Control>
-			<Control ID="chkDisableSpritesVdc2">Sprites deaktivieren (VDC2 - SuperGrafx)</Control>
+			<Control ID="chkDisableBackground">Hintergrund ausblenden</Control>
+			<Control ID="chkDisableBackgroundVdc2">Hintergrund ausblenden (VDC2 - SuperGrafx)</Control>
+			<Control ID="chkDisableSprites">Sprites ausblenden</Control>
+			<Control ID="chkDisableSpritesVdc2">Sprites ausblenden (VDC2 - SuperGrafx)</Control>
 			<Control ID="chkDisableFrameSkipping">Beim Vorspulen keine Frames überspringen</Control>
 			<Control ID="chkForceFixedResolution">Feste Bildschirmauflösung verwenden (4x Skalierung, ≈1024x956)</Control>
 
@@ -611,7 +611,7 @@
 			<Control ID="radProActionReplay">Pro Action Replay (z. B. AAAAAAVV)</Control>
 			<Control ID="chkEnabled">Cheat aktiviert</Control>
 			<Control ID="lblHint">Nur einen Code pro Zeile eingeben, wenn du mehrere&#xA;Codes benutzen möchtest.</Control>
-			<Control ID="lblInvalidCodes">Einige Codes stimmen nicht mit dem ausgewählten&#xA;Format überein.</Control>
+			<Control ID="lblInvalidCodes">Einige Codes entsprechen nicht mit dem ausgewählten&#xA;Format.</Control>
 			<Control ID="lblFormat">Format:</Control>
 			
 			<Control ID="btnOK">OK</Control>
@@ -628,7 +628,7 @@
 			<Control ID="grpAcknowledgements">Danksagungen</Control>
 			<Control ID="lblAcknowledgeList">Danke an folgende Personen/Projekte, die direkt oder indirekt dazu beigetragen haben, Mesen zu dem zu machen, was es ist:</Control>
 			<Control ID="lblUsedSoftware">Mesen verwendet folgende Open-Source-Software:</Control>
-			<Control ID="lblSpecialThanks">Und danke an alle, die in anderer Form dazu beigetragen haben (Fehlermeldungen, Tests, Recherche, etc.)!</Control>
+			<Control ID="lblSpecialThanks">Und danke an alle, die in anderer Form dazu beigetragen haben! (Fehlermeldungen, Tests, Recherche, etc.)</Control>
 
 			<Control ID="btnOk">OK</Control>
 		</Form>
@@ -757,14 +757,14 @@
 
 			<Control ID="lblHint">Jede Taste kann auf bis zu vier verschiedene Tastensätze gelegt werden.</Control>
 			<Control ID="btnSetDefaultBindings">Standardbelegungen setzen</Control>
-			<Control ID="btnClear">Tastenbelegungen löschen</Control>
+			<Control ID="btnClear">Alle Tastenbelegungen löschen</Control>
 			
 			<Control ID="tpgSet1">Tastensatz #1</Control>
 			<Control ID="tpgSet2">Tastensatz #2</Control>
 			<Control ID="tpgSet3">Tastensatz #3</Control>
 			<Control ID="tpgSet4">Tastensatz #4</Control>
 			
-			<Control ID="lblTurboSpeed">Turbo Speed:</Control>
+			<Control ID="lblTurboSpeed">Turbo-Speed:</Control>
 			<Control ID="lblTurboFast">Schnell</Control>
 			<Control ID="lblTurboSlow">Langsam</Control>
 
@@ -896,7 +896,7 @@
 			<Control ID="colSpriteIndex">#</Control>
 			<Control ID="colX">X</Control>
 			<Control ID="colY">Y</Control>
-			<Control ID="colSize">Größe</Control>
+			<Control ID="colSize">Size</Control>
 			<Control ID="colTileIndex">Tile</Control>
 			<Control ID="colPriority">Priority</Control>
 			<Control ID="colPalette">Palette</Control>
@@ -1462,9 +1462,9 @@
 		<Message ID="LoadFromFile">Spielstand-Datei laden...</Message>
 		<Message ID="SaveToFile">Spielstand-Datei speichern...</Message>
 
-		<Message ID="VideoLayerDisabled">{0} deaktiviert.</Message>
-		<Message ID="VideoLayerEnabled">{0} aktiviert.</Message>
-		<Message ID="AllLayersEnabled">Alle BG- und Sprite-Ebenen wurden aktiviert.</Message>
+		<Message ID="VideoLayerDisabled">{0} deaktiviert</Message>
+		<Message ID="VideoLayerEnabled">{0} aktiviert</Message>
+		<Message ID="AllLayersEnabled">Alle BG- und Sprite-Ebenen wurden aktiviert</Message>
 
 		<Message ID="PromptSaveChanges">Änderungen speichern?</Message>
 		<Message ID="PromptKeepChanges">Änderungen beibehalten?</Message>
@@ -1481,8 +1481,8 @@
 		<Message ID="ClearHistory">Verlauf leeren</Message>
 
 		<Message ID="FirmwareNotFound">Zur korrekten Ausführung dieses Spiels ist eine Firmware-Datei erforderlich: {0}&#xA;&#xA;  Dateiname: {1}&#xA;  Größe: {2} bytes&#xA;&#xA;Möchtest du sie auswählen?</Message>
-		<Message ID="FirmwareMismatch">Die ausgewählte Datei stimmt nicht mit der überein, die für das Spiel benötigt wird: {0}&#xA;&#xA;SHA-256 der benötigten Datei:&#xA;{1}&#xA;&#xA;SHA-256 dieser Datei:&#xA;{2}&#xA;&#xA;Möchtest du diese Datei trotzdem verwenden?</Message>
-		<Message ID="FirmwareFileWrongSize">Die ausgewählte Firmware-Datei stimmt nicht mit Größe überein, die erwartet wird ({0} Bytes) und kann somit nicht verwendet werden.</Message>
+		<Message ID="FirmwareMismatch">Die Datei entspricht nicht der, die für das Spiel benötigt wird: {0}&#xA;&#xA;SHA-256 der benötigten Datei:&#xA;{1}&#xA;&#xA;SHA-256 dieser Datei:&#xA;{2}&#xA;&#xA;Möchtest du diese Datei trotzdem verwenden?</Message>
+		<Message ID="FirmwareFileWrongSize">Die Firmware-Datei entspricht nicht der Größe, die erwartet wird ({0} Bytes) und kann somit nicht verwendet werden.</Message>
 
 		<Message ID="MouseModeEnabled">Mausmodus aktiviert - Die Pause-Taste gibt den Mauszeiger wieder frei</Message>
 		<Message ID="BandaiMicrophone">Bandai-Microphone</Message>
@@ -1490,7 +1490,7 @@
 
 		<Message ID="HelpFullscreen">/fullscreen - Mesen im Vollbildmodus starten</Message>
 		<Message ID="HelpDoNotSaveSettings">/DoNotSaveSettings - Dies verhindert, dass die Einstellungen gespeichert werden (Einstellungen in der Kommandozeile werden keine Standardeinstellungen)</Message>
-		<Message ID="HelpRecordMovie">/RecordMovie="filename.mmo" - Es wird eine Aufnahme gestartet, wenn das ausgewählte Spiel geladen wird</Message>
+		<Message ID="HelpRecordMovie">/RecordMovie="filename.mmo" - Es wird eine Aufnahme gestartet, wenn das Spiel geladen wird</Message>
 		<Message ID="HelpLoadLastSession">/LoadLastSession - Lädt die letzte Spielsitzung</Message>
 
 		<Message ID="RightClickToClearBinding">Rechtsklick um Belegung zu löschen</Message>
@@ -1498,7 +1498,7 @@
 		<Message ID="Resume">Fortsetzen</Message>
 		<Message ID="Pause">Pause</Message>
 		<Message ID="StartServer">Server starten</Message>
-		<Message ID="StopServer">Server abschalten</Message>
+		<Message ID="StopServer">Server ausschalten</Message>
 		<Message ID="ConnectToServer">Verbinden</Message>
 		<Message ID="Disconnect">Trennen</Message>
 		<Message ID="PlayerNumber">Spieler {0}</Message>
@@ -1775,7 +1775,7 @@
 		</Enum>
 		<Enum ID="NesPachinkoButtons">
 			<Value ID="Press">Drücken</Value>
-			<Value ID="Release">Freigabe</Value>
+			<Value ID="Release">Freigeben</Value>
 		</Enum>
 		<Enum ID="NesPartyTapButtons">
 			<Value ID="B1">Taste 1</Value>
@@ -1792,7 +1792,7 @@
 			<Value ID="Player2Run">Spieler 2 - Rennen</Value>
 		</Enum>
 		<Enum ID="NesZapperButtons">
-			<Value ID="Fire">Schießen!</Value>
+			<Value ID="Fire">Schießen</Value>
 			<Value ID="AimOffscreen">Außerhalb des Bildschirms zielen (halten)</Value>
 		</Enum>
 		<Enum ID="GenericMouseButtons">
@@ -1814,7 +1814,7 @@
 			<Value ID="Fire">Schießen</Value>
 		</Enum>
 		<Enum ID="NesOekakidsButtons">
-			<Value ID="Click">Klick</Value>
+			<Value ID="Click">Anklicken</Value>
 		</Enum>
 		<Enum ID="NesBandaiMicrophoneButtons">
 			<Value ID="A">A</Value>
@@ -1848,10 +1848,10 @@
 			<Value ID="Straight">Gerader Schlag</Value>
 		</Enum>
 		<Enum ID="NesPowerPadButtons">
-			<Value ID="B1">Taste 01 (links oben)</Value>
+			<Value ID="B1">Taste 01 (oben links)</Value>
 			<Value ID="B2">Taste 02</Value>
 			<Value ID="B3">Taste 03</Value>
-			<Value ID="B4">Taste 04 (rechts oben)</Value>
+			<Value ID="B4">Taste 04 (oben rechts)</Value>
 			<Value ID="B5">Taste 05 (mitte links)</Value>
 			<Value ID="B6">Taste 06</Value>
 			<Value ID="B7">Taste 07</Value>
@@ -1932,7 +1932,7 @@
 			<Value ID="Stop">Stopp</Value>
 			<Value ID="AtSign">At-Zeichen (@)</Value>
 			<Value ID="Grph">Grph</Value>
-			<Value ID="ClrHome">Clr Home</Value>
+			<Value ID="ClrHome">Clr-Home</Value>
 			<Value ID="Kana">カナ (Kana)</Value>
 		</Enum>
 		<Enum ID="NesSuborKeyboardButtons">
@@ -2000,7 +2000,7 @@
 			<Value ID="NumpadMultiply">Ziffernblock - Multiplizieren</Value>
 			<Value ID="NumpadDivide">Ziffernblock - Dividieren</Value>
 			<Value ID="NumpadMinus">Ziffernblock - Minus</Value>
-			<Value ID="NumLock">Num Lock</Value>
+			<Value ID="NumLock">Num-Taste</Value>
 
 			<Value ID="Comma">Komma (,)</Value>
 			<Value ID="Dot">Punkt (.)</Value>
@@ -3026,7 +3026,7 @@
 			<Value ID="HistoryViewer">Spielverlaufsbetrachter</Value>
 			<Value ID="NetPlay">Netplay</Value>
 			<Value ID="StartServer">Server starten...</Value>
-			<Value ID="StopServer">Server abschalten</Value>
+			<Value ID="StopServer">Server ausschalten</Value>
 			<Value ID="Connect">Verbinden...</Value>
 			<Value ID="Disconnect">Trennen</Value>
 			<Value ID="SelectController">Controller auswählen</Value>
