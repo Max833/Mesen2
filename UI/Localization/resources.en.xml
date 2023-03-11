@@ -611,7 +611,7 @@
 			<Control ID="radProActionReplay">Pro Action Replay (z. B. AAAAAAVV)</Control>
 			<Control ID="chkEnabled">Cheat aktiviert</Control>
 			<Control ID="lblHint">Nur einen Code pro Zeile eingeben, wenn du mehrere&#xA;Codes benutzen möchtest.</Control>
-			<Control ID="lblInvalidCodes">Einige Codes entsprechen nicht mit dem ausgewählten&#xA;Format.</Control>
+			<Control ID="lblInvalidCodes">Einige Codes stimmen nicht mit dem ausgewählten&#xA;Format überein.</Control>
 			<Control ID="lblFormat">Format:</Control>
 			
 			<Control ID="btnOK">OK</Control>
