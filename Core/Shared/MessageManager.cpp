@@ -66,7 +66,7 @@ std::unordered_map<string, string> MessageManager::_enResources = {
 	{ "SaveStateMissingRom", u8"Zum Laden des Spielstands ist ROM %1 erforderlich" },
 	{ "SaveStateNewerVersion", u8"Ein Spielstand, der von einer neueren Mesen-Version erstellt wurde, ist nicht kompatibel. Bitte die aktuellste Version herunterladen." },
 	{ "SaveStateSaved", u8"Spiel gespeichert (Slot %1)" },
-	{ "SaveStateSlotSelected", u8"Slot %1 ausgewählt" },
+	{ "SaveStateSlotSelected", u8"Slot %1 wurde markiert" },
 	{ "ScanlineTimingWarning", u8"PPU-Timing wurde umgestellt" },
 	{ "ServerStarted", u8"Server gestartet (Port: %1)" },
 	{ "ServerStopped", u8"Server ausgeschaltet" },
