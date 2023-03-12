@@ -331,7 +331,7 @@
 		<Form ID="GameboyConfigView">
 			<Control ID="tpgGeneral">Allgemein</Control>
 			<Control ID="lblModel">Modell</Control>
-			<Control ID="chkUseSgb2">Wenn entsprechender Modus aktiviert, verhalten und Timing vom Super Game Boy 2 emulieren</Control>
+			<Control ID="chkUseSgb2">Im "Super Game Boy"-Modus Verhalten und Timing vom SGB2 emulieren</Control>
 			
 			<Control ID="tpgEmulation">Emulation</Control>
 			<Control ID="lblRamPowerOnState">Einschaltstatus für RAM: </Control>
@@ -1574,9 +1574,9 @@
 		<Message ID="ViewInAction">View in {0}</Message>
 
 		<Message ID="btnOK">OK</Message>
-		<Message ID="btnCancel">Cancel</Message>
-		<Message ID="btnYes">Yes</Message>
-		<Message ID="btnNo">No</Message>
+		<Message ID="btnCancel">Abbrechen</Message>
+		<Message ID="btnYes">Ja</Message>
+		<Message ID="btnNo">Nein</Message>
 
 		<Message ID="ScriptSaveConfirmation">You have unsaved changes for this script - would you like to save them?</Message>
 		
@@ -2229,10 +2229,10 @@
 			<Value ID="PceAddress">Physikalische Adresse (AAAAAA:VV)</Value>
 		</Enum>
 		<Enum ID="VideoLayer">
-			<Value ID="Bg1">BG layer 1</Value>
-			<Value ID="Bg2">BG layer 2</Value>
-			<Value ID="Bg3">BG layer 3</Value>
-			<Value ID="Bg4">BG layer 4</Value>
+			<Value ID="Bg1">BG-Layer 1</Value>
+			<Value ID="Bg2">BG-Layer 2</Value>
+			<Value ID="Bg3">BG-Layer 3</Value>
+			<Value ID="Bg4">BG-Layer 4</Value>
 			<Value ID="Sprite1">Sprite layer 1</Value>
 			<Value ID="Sprite2">Sprite layer 2</Value>
 		</Enum>
