@@ -2233,8 +2233,8 @@
 			<Value ID="Bg2">BG-Layer 2</Value>
 			<Value ID="Bg3">BG-Layer 3</Value>
 			<Value ID="Bg4">BG-Layer 4</Value>
-			<Value ID="Sprite1">Sprite layer 1</Value>
-			<Value ID="Sprite2">Sprite layer 2</Value>
+			<Value ID="Sprite1">Sprite-Layer 1</Value>
+			<Value ID="Sprite2">Sprite-Layer 2</Value>
 		</Enum>
 
 		<Enum ID="MemorySizes">
